@@ -1,15 +1,88 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <body bgcolor="silver">
-            <marquee style="background: yellow;">L   E   E    N </marquee>
-            <center>
-                <h1 style="color: blue;">Hello My Lovely Leen </h1>
-            </center>
+        <!--Element Consists Of (Start Tage   content  end tage)-->
+        <!--Attributes   that add properties to element and add it in start tage-->
+        <title>Personal Page- Leen</title>
+        <link /> <!--For css لعمل ربط بصفحه اخرى -->
+        <meta charset="utf-8" />  <!-- character settingمسئول عن اللغه العربيه-->
+        <meta name="desciption" content="This website is talk about ..." /> <!--لعمل وصف للموقع ايضا-->
+        <meta name="keywords" content="programming,htm,css" /> <!--اهم الكلمات التى بالموقع-->
+        <!--meta description تظهر عندما افتح موقع بيكون تحت الموقع قبل الدخول له تحته كلام  -->
+
+    </head>
+
+
+        
+    <body bgcolor="silver">
+
+
+        <!--Heading  العنوان -->
+        <!-- لعمل كومنت سريع كنترول وحرف ظ -->
+        <h2 style="background: tomato;"> Heading </h2>
+        <h1>H1</h1>  <!--Dont Reapeat   CEO  chearch enging optimizationعشان يظهر فى نتايج البحث-->
+        <h2>H2</h2><!--لا يتم استخدامهم فى تكبير كلمه معينه-->
+        <h3>H3</h3>
+        <h4>H4</h4>
+        <h5>H5</h5>
+        <h6>H6</h6>
+
+        <!--........................................................-->
+        <!--Paragraph  فقره نصيه-->
+        <h2 style="background: tomato;">Paragraph</h2>
+        <p>Google News is a news aggregator app developed by 
+            Google. It presents a continuous flow of articles 
+            organized from thousands of publishers and magazines. 
+            Google News is available as an app on Android,
+            iOS, and the Web. Google released a beta version in
+             September 2002 and the official app in January 2006</p> <!--لكتابه فقره نصيه بلوك-->
+
+
+
+        <!--IMAGE-------------------------------------------->
+
+
+        <h2 style="background: tomato;">IMAGE</h2>
+        <img src=""  width="1000" height="300" alt="Image Not found" title="Leen Love" >
+
+        <!--Formatting tages-->
+        <h2 style="background: tomato;">Formatting Tages</h2>
+            <b> Bold text </b>  <br><hr>
+            <strong> Important text </strong><br><hr>  <!--Same b  but better use Strong for CEO-->
+            <i> Italic text </i><br><hr>
+            <em> Emphasized text </em><br><hr>
+            <mark>  Marked text </mark><br><hr>
+            <small>  Smaller text </small><br><hr>
+            <del> Deleted text </del><br><hr>
+            <u>Underline</u><br><hr>
+            <ins>  Inserted text </ins><br><hr>  <!--Same u  but better use  ins-->
+            <sub> Subscript text </sub>  &ensp;&emsp; <!--للمعادلات الرياضيه والكيمياء-->   H<sub>2</sub>O  <br><hr>
+            <sup>  Superscript text </sup> &emsp;  5<sup>2</sup>    <br><hr><!--للمعادلات الرياضيه والكيمياء-->    
             
-            <label>Enter Name</label>
+            <!--Button-->
+            <h2 style="background: tomato;">Button</h2>
+            <button style="background: violet;">Download</button>
+
+            <!-- Block  & Inline-->
+            <h2 style="background:tomato;">Block  & Inline</h2>
+            <!-- فى البلوك الاشهر -->
+            <div></div>   <!-- Mean Division   مسئول عن تقسم الموقع الى اجزاء-->
+
+            
+
+
+
+
+
+
+        <marquee style="background: tomato;">L   E   E    N </marquee>
+        <center>
+                <h1 style="color: blue;">Hello My Lovely Leen </h1>
+        </center>
+            
+        <label title="As ID">Enter Name</label>
             <input>
-            <br>
+            <br> <!--Break Line-->
             <label>Password  ...</label>
             <input type="password">
             <br>
@@ -31,26 +104,97 @@
             <a href="http://quran.ksu.edu.sa/index.php#aya=2_117&qaree=husary.t">اضغط هنا لحفظ القرأن الكريم </a> 
             <br><br>
             <center>
-                <img width="1000" height="300"  src ="1.jpg"   />
+                <img  src ="1.jpg" width="1000" height="300" alt="Image Not found" title="Leen Love"   /> <!--alt  mean alternative   ويعمل فى حاله عدم ظهور الصوره بديل-->
 
             </center>
             
 
             <hr>
+
+
+            <!-- List  unordered List   and  Ordered List-->
+
+
             <h2 style="background: tomato;">Ordred List and unordered List</h2>
-            <ol>
-                <li>Leen</li>
+            <ol type="A">  <!-- can use attribute to change but by default use 1-2-3-->
+                <li>Leen</li><!--list item-->
                 <li>Hamza</li>
                 <li>Ramzy</li>
             </ol>
             <hr>
             <ul>
-                <li>Juice</li>
+                <li>Juice</li>   <!--اشهر استخدام لها فى عنوان الصفحه فوق اللى هى مثل الرئيسيه وهكذا-->
                 <li>Orange</li>
                 <li>Apple</li>
             </ul>
             <hr>
+
+
+            <!--description list-->
+
+
+            <dl>
+                <dt>Keyboards</dt> <!--description title-->
+                <dd>keyboard 1</dd> <!--Description deatails or defenition -->
+                <dd>Keyboard 2</dd>
+
+                <dt>Mouse....</dt>
+                <dd>Mouse 1</dd>
+                <dd>Mouse 2</dd>
+            </dl>
+
+
+
+            <!--Tables--------------------------------------------------->
+
             <h3 style="background: tomato;">Table.........</h3>
-        </body>
-    </head>
+            <table border="1">
+                <caption>Hello....</caption>  <!--عنوان للجدول-->
+
+
+                <thead style="background:yellow">
+                    <tr>
+                        <th>First.......</th>  
+                        <th>Second......</th>
+                    </tr>
+
+                </thead>
+                <tbody style="background: brown;">
+                    
+                    <tr>
+                       <td>HTML</td>
+                       <td rowspan="2">CSS</td>  <!--معناها دمج صفوف-->
+                    </tr>
+                    <tr>
+                       <td>JS</td>
+                    <!-- <td>CSS</td> هنا دى متكرره وهنا يسمى دمج صفوف -->
+                    <!--عشان ادمج يبقى استغنى عن واحده وليكن الاخيره  -->
+                    </tr>
+                    <tr>
+                       <td colspan="2">C#</td><!--فى حاله دمج صفوف-->
+                    <!-- <td>C#</td> -->
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2" style="background: yellow;">Thanks .....</td>
+                    </tr>
+
+                </tfoot>
+            </table>
+
+
+            <!-- --------------------------------------------------------- -->
+
+            <!-- Iframe   اى دمج موقع خارجى عندى فى صفحتى  -->
+
+            
+            <h2 style="background:tomato;">Iframe.........</h2>
+            <iframe src="https://www.w3schools.com/"></iframe>
+            <!-- لكن الموقع لن يظهر الا لو موقعى شغال على الانترنت وليس لوكال -->
+
+        
+    </body>
+    
 </html>
